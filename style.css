@@ -1,0 +1,532 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navb {
+    background-color: rgba(77, 238, 13, 0.7);
+    height: 5vw;
+    overflow: visible;
+
+}
+
+.logo {
+    height: 5vw;
+    float: left;
+    width: 10%;
+
+   
+
+}
+
+
+.logo img {
+        
+        float: left;
+        height: 4vw;
+        margin-left: 0.9vw;
+        width: 76%;
+
+    }
+    
+    
+.menu {
+    float: left;
+    width: 60%;
+    height: 5vw;
+    text-align: center;
+}
+
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1vw;
+
+}
+
+.menu ul li {
+    list-style: none;
+    /* display: inline-block; */
+
+}
+
+.menu ul li a {
+    
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-left: 2vw;
+    text-transform: capitalize;
+       
+    font-size: 1.7vw;
+}
+
+.menu ul li a:hover {
+    color: rgb(231, 9, 9);
+
+}
+
+.ser {
+
+    height: 5vw;
+    width: 30%;
+    float: left;
+    text-align: center;
+
+}
+
+.ser input {
+    margin-top: 1.3vw;
+    height: 2vw;
+    width: 38%;
+
+    
+}
+
+
+.ser button {
+    margin-top: 1vw;
+    width: 6vw;
+    height: 3vw;
+    
+    color: rgba(18, 19, 18, 0.993);
+    font-weight: bolder;
+    font-size: 1vw;
+    margin-left: 1vw;
+    background-color: #d60ff1c2;
+}
+
+
+.ser i {
+    font-size: 2vw;
+    margin-top: 1vw;
+}
+
+
+.backi {
+    background-image: url("bgh.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 37vw;
+
+
+}
+
+.bd {
+    text-align: center;
+    background-color: rgb(2, 2, 2, 0.8);
+    height: 32vw;
+    position: absolute;
+    width: 100%;
+    margin-top: 5vw;
+}
+
+.bd h1 {
+    color: rgb(185 104 17);
+    font-weight: bold;
+    font-size: 5vw;
+    font-family: cursive;
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgb(245, 237, 237);
+    margin-top: 6vw;
+
+}
+.bd h3 {
+    color: rgb(14, 231, 50);
+    font-weight: bold;
+    font-size: 2vw;
+    font-family: cursive;
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgb(168, 9, 9);
+    margin-top: 1vw;
+
+
+}
+
+
+.bd button {
+    width: 15vw;
+    height: 4vw;
+    color: black;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 1.5vw;
+
+    margin-top: 3vw;
+    background-color: #0fabf1c2;
+    border-radius: 10%;
+}
+.bd button:hover{
+    background-color: #36da7f;
+    color: red;
+}
+.info {
+    text-align: center;
+    height: 75vw;
+}
+
+.info h1 {
+    color: rgb(34 29 24);
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 1vw;
+    font-family: 'Rowdies', cursive;
+    text-transform: uppercase;
+
+}
+
+.card {
+    text-align: center;
+}
+
+.card1 {
+    width: 28%;
+    float: left;
+    height: 30vw;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    border-radius: 15%;
+
+}
+
+.card img {
+    width: 22vw;
+    height: 19vw;
+    margin: 2vw;
+    box-shadow: 2px 0px 26px 9px rgb(180, 14, 116);
+    border-radius: 8%;
+    cursor: pointer;
+}
+
+.card h3 {
+    color: rgb(34 29 24);
+    font-weight: bold;
+    font-size: 2vw;
+    font-family: emoji;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.card button {
+    width: 9vw;
+    height: 2vw;
+    color: #27f785;
+    font-weight: bolder;
+    font-size: 1vw;
+    background-color: #8b6f34;
+    text-transform: capitalize;
+    margin: 1vw;
+    cursor: pointer;
+    border-radius: 3vw;
+}
+.card button:hover{
+    background-color: rgb(101, 35, 224);
+}
+
+.card p {
+    font-family: "Sofia", sans-serif;
+    color: rgb(34 29 24);
+    margin: 1vw;
+    font-size: 1vw;
+
+
+}
+
+.about {
+
+    height: 40vw;
+
+
+}
+
+.about p {
+    font-family: "Sofia";
+    color: rgb(34 29 24);
+    margin: 1vw;
+    font-size: 2vw;
+    line-height: 1.3;
+    width: 45%;
+    float: left;
+    font-weight: bold;
+}
+
+.about h1 {
+    color: rgb(34 29 24);
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 2vw;
+    font-family: 'Rowdies', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    height: 8vw;
+}
+
+.about img {
+    width: 48%;
+    height: 30vw;
+    margin: 2vw;
+    border-radius: 8%;
+    float: left;
+}
+
+.gall {
+    height: 30vw;
+    text-align: center;
+}
+
+.gall h1 {
+    color: rgb(34 29 24);
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 2vw;
+    font-family: 'Rowdies', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    height: 4vw;
+}
+
+.gphoto img {
+    width: 25vw;
+    height: 20vw;
+    margin: 2vw;
+    border-radius: 8%;
+    box-shadow: 2px 0px 26px 9px rgb(14, 180, 180);
+}
+
+.gphoto {
+    width: 28%;
+    float: left;
+    height: 25vw;
+    margin-left: 4vw;
+    margin-top: 3vw;
+    border-radius: 15%;
+
+}
+
+.testm {
+    height: 30vw;
+    text-align: center;
+}
+
+.testm h1 {
+    color: rgb(34 29 24);
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 2vw;
+    font-family: 'Rowdies', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    height: 8vw;
+}
+
+.tcon {
+    width: 28%;
+    float: left;
+    height: 8vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    border-radius: 15%;
+}
+
+.tcon i {
+    size: 2vw;
+}
+
+.tcon h3 {
+    color: rgb(34 29 24);
+    font-weight: bold;
+    font-size: 2vw;
+
+    font-family: cursive;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.tcon p {
+    font-family: "Sofia", sans-serif;
+    color: rgb(34 29 24);
+
+    font-size: 1.3vw;
+    padding: 1.3vw;
+}
+
+.contact {
+    height: 40vw;
+    width: 100%;
+}
+
+.contact h1 {
+    color: rgb(34 29 24);
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 2vw;
+    font-family: 'Rowdies', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    height: 8vw;
+}
+
+.lname {
+    font-family: "Sofia", sans-serif;
+    color: rgb(34 29 24);
+    text-align: justify;
+    width: 50%;
+    float: left;
+
+}
+
+.con h3 {
+    color: rgb(34 29 24);
+    font-weight: bold;
+    font-size: 2vw;
+
+    font-family: cursive;
+    text-transform: uppercase;
+
+}
+
+.con {
+    margin-top: 2vw;
+    margin-left: 3vw;
+    width: 69%;
+    height: 15%;
+    float: left;
+}
+
+.con h5 {
+    color: rgb(34 29 24);
+    font-weight: bold;
+    font-size: 1vw;
+
+    font-family: cursive;
+    text-transform: uppercase;
+
+}
+
+.rform {
+
+    color: rgb(34 29 24);
+    text-align: center;
+    width: 50%;
+    height: 17%;
+    float: left;
+}
+
+.rform input {
+    margin: 1vw;
+    width: 70%;
+    height: 3vw;
+
+}
+
+.rform button {
+    width: 8vw;
+    height: 3vw;
+    color: black;
+    text-transform: capitalize;
+   font-weight: bolder;
+    font-size: 1.5vw;
+
+    background-color: #0fabf1c2;
+    border-radius: 11%;
+}
+.rform button:hover{
+    background-color: #36da7f;
+    color: red;
+}
+.icocon {
+    float: left;
+
+}
+
+.incon {
+    float: left;
+    margin-left: 1vw;
+}
+
+.map h1 {
+    color: rgb(34 29 24);
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 2vw;
+    font-family: 'Rowdies', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    height: 6vw;
+}
+
+footer {
+    background-color: #977e7ee3;
+    height: 12vw;
+    width: 100%;
+}
+.foot1{
+    width: 30%;
+  margin-top: 4vw;
+  margin-left: 1vw;
+    height: 8vw;
+    float: left;
+}
+.foot{
+    width: 30%;
+    float: left;
+}
+.foot2{
+    width: 30%;
+    float: left;
+}
+.foot2 ul{
+    width: 100%;
+    float: left;
+    align-items: center;
+
+}
+.foot2 ul li{
+    margin-top: 1vw;
+    list-style: none;
+}
+.foot2 ul li a{
+    text-decoration: none;
+    color: black;
+ 
+font-size: 1.5vw;
+}
+.foot2 ul li a:hover{
+    color: #eea70d;
+}
+.foot1 h5{
+
+    font-weight: bold;
+    font-size: 1vw;
+    /* text-align: center; */
+    font-family: cursive;
+}
+
+.sicon {
+    width: 100%;
+    height: 70%;
+}
+
+.map {
+    height: 17%;
+
+}
+
+.arr {
+    float: right;
+    position: fixed;
+    bottom: 1vw;
+    right: 0;
+    margin-right: 2vw;
+}
+.soc{
+    float: left;
+}
